@@ -6,6 +6,7 @@
       v-for="item of config"
       :key="item.prop"
     >
+      <!-- 使用插槽 -->
       <el-table-column
         v-if="item.type === 'slot'"
         :prop="item.prop"
