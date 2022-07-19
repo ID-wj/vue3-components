@@ -10,6 +10,7 @@
         </el-button>
       </template>
     </wTable>
+    <MultilineTextVue text="安抚急啊看电视剧啊发生的纠纷哈吉斯的话放假啊回复安徽福建安徽的时间发哈手机发哈技术大会发按计划的发掘和顺丰哈计划" />
   </div>
 </template>
 
@@ -18,12 +19,14 @@ import { defineComponent } from 'vue-demi';
 import { reactive } from 'vue';
 import { useStore } from '../store';
 import wTable from '../components/WTable/WTable.vue';
+import MultilineTextVue from '../components/multiline-text/MultilineText.vue';
 // import tableCol from '../components/WTable/tableCol.vue';
 // import wButton from '../components/wButton.vue';
 
 export default defineComponent({
   components: {
     wTable,
+    MultilineTextVue,
     // tableCol,
     // wButton,
   },
